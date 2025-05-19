@@ -329,6 +329,27 @@ button.normal:hover {
   margin-top: 20px;
 }
 
+#map-section {
+  text-align: center; 
+  margin: 50px 0; /* Adds margin above and below the map section */
+}
+
+#map-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px; /* Adds space between heading and map */
+  color: #333; 
+}
+
+#map-section iframe {
+  width: 100%; 
+  max-width: 1000px; 
+  height: 450px; 
+  border: none; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+
 /* newsletter section styles */
 
 #newsletter {
@@ -446,30 +467,45 @@ button.normal:hover {
 
 /* footer section styles */
 
-#footer{
+#footer {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 75px;
-  background-color: #ececec;
+  background-color: #1c1c1c; /* Dark background */
 }
 
-#footer p, #footer a{
-  color: rgb(109, 109, 109);
+#footer p, 
+#footer a, 
+#footer h3, 
+#footer address {
+  color: #e0e0e0; /* Light text for contrast */
   text-decoration: none;
 }
-#footer a:hover{
-  color:#088178;
+
+#footer a:hover {
+  color: #00d1b2; /* Accent color on hover */
 }
-#footer .about a{
+
+#footer .about a,
+#footer .myaccount a {
   display: block;
-  padding:8px 0;
+  padding: 8px 0;
 }
-#footer .myaccount a{
-  display: block;
-  padding:8px 0;
-}
-#footer .download img{
-  border: 1px solid #08817969;
+
+#footer .download img {
+  border: 1px solid #00d1b270;
   border-radius: 7px;
+}
+
+
+#footer .socials a i {
+  color: #e0e0e0;
+  font-size: 20px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+#footer .socials a:hover i {
+  color: #00d1b2;
 }
