@@ -9,7 +9,7 @@ function submitForm() {
   } else if (!emailPattern.test(email)) {
     alert("Please enter a valid Gmail address (e.g., yourname@gmail.com).");
   } else {
-    alert("Form submitted. Thank you!");
+    alert("Thank you! for signing with us.");
     document.getElementById('email-address-input').value = ""; // Clear the input
   }
 }

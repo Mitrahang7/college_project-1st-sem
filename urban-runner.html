@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Runner - Product Details</title>
+    <link rel="stylesheet" href="static/css/product-detail.css">
+    <script src="https://kit.fontawesome.com/0e53af926d.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .sale-badge {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  z-index: 1;
+}
+</style>
+<body>
+    <header>
+        <div id="header">
+            <div class="logo-container">
+                <a href="index.html"><img src="static/images/generated-image.png" class="site-logo" alt="Hamro Jutta Logo" /></a>
+            </div>
+            <div class="header-list">
+                <nav class="header-list-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="research.html">Research</a></li>
+                    </ul>
+                </nav>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search for shoes and slippers...">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="header-list-icon">
+                    <a href="#"><i class="fa fa-bag-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-detail-section section-p1">
+            <div class="product-image-gallery">
+                <div class="product-main-image">
+                    <img src="static/images/products/caliber.jpg" alt="Urban Runner Shoe">
+                    <div class="zoom-icon">
+                        <i class="fa-solid fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="product-thumbnail-images">
+                    <div class="thumbnail active">
+                        <img src="static/images/products/caliber.jpg" alt="Urban Runner Thumbnail 1">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="static/images/products/570-BLK4-768x768.jpg" alt="Urban Runner Thumbnail 2">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="static/images/products/806-OLIVE-2-768x768.jpg" alt="Urban Runner Thumbnail 3">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="static/images/products/747olive1-768x768.jpg" alt="Urban Runner Thumbnail 4">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-info">
+                <span class="product-brand">Hamro Jutta</span>
+                <h1 class="product-title">Urban Runner</h1>
+                
+                <div class="product-rating">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <span class="review-count">(32 reviews)</span>
+                </div>
+                
+                <div class="product-price">
+                    <span class="price">Rs. 72</span>
+                    <span class="old-price">Rs. 100</span>
+                    <div class="sale-badge">Sale</div>
+                </div>
+              
+                
+                <div class="product-status">
+                    <div class="status-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span class="in-stock">In Stock</span>
+                    </div>
+                    <div class="status-item">
+                        <i class="fa-solid fa-truck"></i>
+                        <span>Free shipping</span>
+                    </div>
+                </div>
+                
+                <div class="product-description">
+                    <p>Experience the perfect blend of style and comfort with the Urban Runner. Designed for the modern explorer, these shoes feature a lightweight construction, breathable materials, and a cushioned sole for all-day wear. Whether you're navigating city streets or embarking on light trails, the Urban Runner provides the support and durability you need.</p>
+                </div>
+                
+                <div class="product-features">
+                    <h4>Features:</h4>
+                    <ul>
+                        <li>Lightweight and breathable upper</li>
+                        <li>Durable rubber outsole for excellent traction</li>
+                        <li>Cushioned insole for enhanced comfort</li>
+                        <li>Stylish design suitable for various occasions</li>
+                        <li>Water-resistant materials</li>
+                        <li>Reflective elements for night visibility</li>
+                    </ul>
+                </div>
+                
+                <div class="size-selection">
+                    <div class="flex-between">
+                        <h4>Select Size:</h4>
+                        <span class="size-guide">Size Guide</span>
+                    </div>
+                    <div class="size-options">
+                        <div class="size-option">39</div>
+                        <div class="size-option">40</div>
+                        <div class="size-option active">41</div>
+                        <div class="size-option">42</div>
+                        <div class="size-option">43</div>
+                        <div class="size-option">44</div>
+                    </div>
+                </div>
+                
+                <div class="color-selection">
+                    <h4>Select Color:</h4>
+                    <div class="color-options">
+                        <div class="color-option active" style="background-color: #000;"></div>
+                        <div class="color-option" style="background-color: #6b5545;"></div>
+                        <div class="color-option" style="background-color: #1a677a;"></div>
+                    </div>
+                </div>
+                
+                <div class="quantity-cart">
+                    <div class="quantity-selector">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="10">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Add to Cart
+                    </button>
+                </div>
+                
+                <div class="delivery-info">
+                    <div class="delivery-item">
+                        <div class="delivery-icon">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div class="delivery-text">
+                            <strong>Free Delivery</strong>
+                            <p>Free shipping on all orders over Rs. 1000</p>
+                        </div>
+                    </div>
+                    <div class="delivery-item">
+                        <div class="delivery-icon">
+                            <i class="fa-solid fa-rotate-left"></i>
+                        </div>
+                        <div class="delivery-text">
+                            <strong>Easy Returns</strong>
+                            <p>30 days return policy</p>
+                        </div>
+                    </div>
+                    <div class="delivery-item">
+                        <div class="delivery-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="delivery-text">
+                            <strong>Quality Guarantee</strong>
+                            <p>2-year warranty on all products</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-share">
+                    <span class="share-label">Share:</span>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+                        <a href="#" class="social-icon instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="contact">
+                <a href="index.html"><img src="static/images/generated-image.png" alt="" width="90px" height="60px" /></a>
+                <h3>Contact</h3>
+                <address>
+                    <p><b>Address:</b> Sundar Haraincha -4 Morang, Dulari </p>
+                    <p><b>Phone:</b> +977 9804762563</p>
+                    <p><b>Hours</b> 10:00 - 18:00. Sun - Fri</p>
+                </address>
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="about">
+                <h3>About</h3>
+                <a href="aboutus.html">About Us</a>
+                <a href="blog.html">Our's Blog</a>
+                <a href="research.html">Research</a>
+                <a href="product.html">Our Products</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="myaccount">
+                <h3>My account</h3>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Account</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="install">
+                <h3>Install App From Here</h3>
+                <div class="download">
+                    <a href="#"><img src="static/images/pay/app.jpg" alt=""></a>
+                    <a href="#"><img src="static/images/pay/play.jpg" alt=""></a>
+                </div>
+                <h3>Payment</h3>
+                <img src="static/images/pay/pay.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/js/product_detail.js"></script>
+   
+</body>
+</html> 

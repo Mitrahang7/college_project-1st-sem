@@ -134,6 +134,8 @@
 }
 .product-section .product-cart img {
   width: 100%;
+   max-width: 250px; /* match first two image width */
+  height: 250px;     /* match first two image height */
   border-radius: 20px;
 }
 .product-section .product-cart h4 {
