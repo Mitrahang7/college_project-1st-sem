@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>हाम्रो जुत्ता चप्पल घर|Blog</title>
-
-  <!-- External CSS -->
-  <link rel="stylesheet" href="static/css/blog.css" />
-
-  <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/0e53af926d.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!--header section-->
-
-    <header>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>हाम्रो जुत्ता चप्पल घर|Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font awesome icon -->
+    <link rel="stylesheet" href="static/css/blog.css">
+    
+  </head>
+  <script
+      src="https://kit.fontawesome.com/0e53af926d.js"
+      crossorigin="anonymous"
+    ></script>
+  <body>
+  <header>
       <div id="header">
         <div class="logo-container">
-          <a href="index.html"><img src="static/images/generated-image.png" class="site-logo" /></a>
+          <a href="index.html"><img src="/static/images/generated-image.png" class="site-logo" ></a>
         </div>
         <div class="header-list">
           <nav class="header-list-nav">
@@ -27,184 +27,158 @@
               <li><a href="blog.html">Blog</a></li>
               <li><a href="aboutus.html">About</a></li>
               <li><a href="research.html">Research</a></li>
-             
-
-            </ul>
+          </ul>
           </nav>
           <!-- Search Bar -->
           <div class="search-container">
-            <input type="text" placeholder="Search for shoes and slippers...">
+            <input type="text" id="searchInput" placeholder="Search for shoes and slippers...">
             <button type="submit"><i class="fa fa-search"></i></button>
           </div>
           <div class="header-list-icon">
-            <a href=""><i class="fa fa-bag-shopping"></i></a>
+            <a href="#"><i class="fa fa-bag-shopping"></i></a>
           </div>
         </div>
       </div>
     </header>
 
- 
- 
- <!-- Hero Section -->
- <div class="hero-container">
-  <div class="hero-image">
-    <img src="static/images/blog/WhatsApp Image 2025-05-04 at 12.35.33_66ca8342.jpg" />
-    
-    
-    
-  </div>
-  <div class="hero-content" >
-    <h1>Walk Into the Future 
-    </h1>
-    <h2>with हाम्रो जुत्ता चप्पल घर</h2>
-  
-    <p>Learn how footwear is changing due to digital technology. Investigate innovation at every turn.</p>
-  
-  </div>
-</div>
 
-  <!--Blog Articles -->
-  <main>
-      <!-- Blog 1 -->
-      <article class="blog-item">
-        <img src="static/images/blog/WhatsApp Image 2025-05-04 at 12.35.33_d7945520.jpg" alt="The Development of Smart Footwear: Beyond Step Counters" />
-        <div class="text">
-          <h2>The Development of Smart Footwear</h2>
-        </div>
-        <div class="arrow" onclick="toggleContent(1)">&#8594;</div> <!-- Right arrow -->
-        <div id="blog1-content" class="full-content" style="display:none;">
-          <p>The athletic performance and the daily wear has been revolutionized by smart shoes...</p>
-        </div>
-      </article>
+ <!-- Main-container -->
     
-      <!-- Blog 2 -->
-      <article class="blog-item">
-        <img src="static/images/blog/WhatsApp Image 2025-05-04 at 12.35.33_d7945520.jpg" alt="Virtual Try-Ons: Eliminating Guesswork in Sizing" />
-        <div class="text">
-          <h2>Virtual Try-Ons: Eliminating Guesswork in Sizing</h2>
-        </div>
-        <div class="arrow" onclick="toggleContent(2)">&#8594;</div> <!-- Right arrow -->
-        <div id="blog2-content" class="full-content" style="display:none;">
-          <p>Technology is transforming the shoe shopping experience by essentially, creating a new way to shop for shoes online. Either through in-store mirror or through a phone camera, customer fit, color or style can be checked in real time...</p>
-        </div>
-      </article>
+ <section class="first" style="height: 100vh;">
+      <div class="background"> 
+        <h1>WELCOME TO</h1>
+        <h3>हाम्रो जुत्ता चप्पल घर</h3>
+        <h3>BLOG</h3>
+      </div>
+    </section>
+   <!-- blog section -->
     
-      <!-- Blog 3 -->
-      <article class="blog-item">
-        <img src="/static/images/blog/WhatsApp Image 2025-05-04 at 12.35.33_d7945520.jpg" alt="The Negative Aspects of Tech-Enabled Footwear" />
-        <div class="text">
-          <h2>The Negative Aspects of Technology on Footwear</h2>
-        </div>
-        <div class="arrow" onclick="toggleContent(3)">&#8594;</div> <!-- Right arrow -->
-        <div id="blog3-content" class="full-content" style="display:none;">
-          <p>Abandoned smart shoes could annually generate 11 million tonnes of e-waste by 2030, given batteries, sensors, and other non-recyclable components in these shoes...</p>
-        </div>
-      </article>
-    
-      <!-- Blog 4 -->
-      <article class="blog-item">
-        <img src="/static/images/blog/WhatsApp Image 2025-05-04 at 12.35.33_d7945520.jpg" alt="The Revolution in Manufacturing: 3D Printing and AI Design" />
-        <div class="text">
-          <h2>The Revolution in Manufacturing: 3D Printing and AI Design</h2>
-        </div>
-        <div class="arrow" onclick="toggleContent(4)">&#8594;</div> <!-- Right arrow -->
-        <div id="blog4-content" class="full-content" style="display:none;">
-          <p>By combining these two technologies, manufacturing will move to the business of fast, sustainable, and viable manufacturing, leading to zero-waste future...</p>
-        </div>
-      </article>
-    
-      <!-- Blog 5 -->
-      <article class="blog-item">
-        <img src="/static/images/blog/WhatsApp Image 2025-05-04 at 12.35.33_d7945520.jpg" alt="Robotics on Footwear" />
-        <div class="text">
-          <h2>Robotics on Footwear</h2>
-        </div>
-        <div class="arrow" onclick="toggleContent(5)">&#8594;</div> <!-- Right arrow -->
-        <div id="blog5-content" class="full-content" style="display:none;">
-          <p>Shoe assembly, cutting, and stitching can be accomplished with the help of robots by large corporations, improving speed and reducing mistakes...</p>
-        </div>
-      </article>
-    
-      <!-- Blog 6 -->
-      <article class="blog-item">
-        <img src="/static/images/blog/WhatsApp Image 2025-05-04 at 12.35.33_d7945520.jpg" alt="Summary of Technological Insights on Footwear" />
-        <div class="text">
-          <h2>Summary of Technological Insights on Footwear</h2>
-        </div>
-        <div class="arrow" onclick="toggleContent(6)">&#8594;</div> <!-- Right arrow -->
-        <div id="blog6-content" class="full-content" style="display:none;">
-          <p>Insoles and trainers with health and performance improvements, AR virtual try-ons, AI in design, blockchain for product authenticity...</p>
-        </div>
-      </article>
+   <section class="trending-container">
+    <div class="product">
+      <img src="/static/images/blog/1.webp" alt="product"></a>
+      <h1>Technology overview</h1>
+      <p>It’s not only phones and computers that use technology; now, it affects the entire process of making, selling and wearing shoes. Thanks to technology, manufacturing shoes and...</p>
+      <a href="/bloglink.html"><button>Read more</button></a>
+  </div>
+     
+  
+    <div class="product">
+      <img src="/static/images/blog/2.jpg" alt="product"></a>
+      <h1>Impact of technologies on footwear Business </h1>
+      <p>Innovation has become a bigger focus in the footwear business than just leather, laces and ...</p>
       
+      <a href="/bloglink2.html"><button>Read more</button></a>
+  </div>
+  <div class="product">
+      <img src="/static/images/blog/3.avif" alt="product"></a>
+      <h1>Positive Impact of Technology on footwear </h1>
+      <p>We don’t usually spend much time thinking about what’s on our feet. We decide what to wear... </p>
+        <a href="/bloglink3.html"><button>Read more</button></a>
+  
+
+</section>
+<section class="trending-container2">
+  <div class="product">
+    <img src="/static/images/blog/4.webp" alt="product"></a>
+    <h1>Negative Impact of Technology on Footwear</h1>
+    <P>We’re truly impressed by all the technology that’s made shoes more comfortable and fashionable. In reality, some ..</P>
+    <a href="/bloglink4.html"><button>Read more</button></a>
+</div>
+<div class="product">
+    <img src="/static/images/blog/5.jpg" alt="product"></a>
+    <h1>Shoe Tech on daily lives</h1>
+    <p>hoes are becoming loaded with extra benefits thanks to technology. Modern shoes are designed to improve your health, boost your comfort and add security over the course of the day....</p> 
+    <a href="/bloglink5.html"><button>Read more</button></a>
+</div>
+<div class="product">
+  <img src="/static/images/blog/6.1.png" alt="product"></a>
+  <h1>New Era of Footwear Shopping</h1>
+  <p>When buying shoes now, you need to look beyond just picking the most stylish pair. Because of technology, your shopping experience has ... </p>
+
+  <a href="/bloglink6.html"><button>Read more</button></a>
+</div>
+</section>
+    <section>
+      <div class="text1"><h1>Top Sellers at हाम्रो जुत्ता चप्पल घर</h1>
+        <p>Restoring soon</p>
+      </div>
+    </section>
+    <!-- last div -->
+    <section class="last-div">
+      <div class="div1">
+          <img src="/static/images/blog/101.avif" alt="div1">
+      </div>
+      <div class="div2">
+          <img src="/static/images/blog/44.4444444.avif" alt="div2">
+      </div>
+      <div class="div-container">
+          <div class="div3">
+              <img src="/static/images/blog/34.avif" alt="div3">
+          </div>
+          <div class="div4">
+              <img src="/static/images/blog/100.avif" alt="div4">
+          </div>
+      </div>
+      
+  </section>
     
-    
-  </main>
 <!--footer section-->
-   <footer>
-     <div id="footer">
-       <div class="contact">
-         <a href="index.html"><img src="static/images/generated-image.png" alt="" width="90px" height="60px" /></a>
-         <br> <br>
-         <br> 
-         <h3>Contact</h3>
-         <address>
-           <p><b>Address:</b> Sundar Haraincha -4 Morang, Dulari </p>
-           <p><b>Phone:</b> +977 9804762563</p>
-           <p><b>Hours</b> 10:00 - 18:00.  Sun - Fri</p>
-         </address>
-         <h3>Follow Us</h3>
-         <br> 
-         <div class="socials">
-           <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
-           <a href="#"><i class="fa-brands fa-youtube"></i></a>
-           <a href="#"><i class="fa-brands fa-telegram"></i></a>
-           <a href="#"><i class="fa-brands fa-instagram"></i></a>
-           <a href="#"><i class="fa-brands fa-twitter"></i></a>
-         </div>
-       </div>
-       <div class="about">
-         <h3>About</h3>
-         <br> 
-         <a href="#">About Us</a>
-         <a href="#">Our's Blog</a>
-         <a href="#">Research</a>
-         <a href="#">Our Products</a>
-         <a href="#">Contact Us</a>
-       </div>
-       <div class="myaccount ">
-         <h3>My account</h3>
-         <br> 
-         <a href="#">Sign In</a>
-         <a href="#">View Cart</a>
-         <a href="#">My Account</a>
-         <a href="#">Help</a>
-       </div>
-       <div class="install">
-         <h3>Install App From Here</h3>
-         <div class="download">
-           <a href="#"><img src="static/images/pay/app.jpg" alt=""></a>
-           <a href="#"><img src="static/images/pay/play.jpg" alt=""></a>
-         </div><br>
-         <br>
-         <h3>Payment</h3>
-         <br>
-         <img src="static/images/pay/pay.png" alt="">
-       </div>
-       
-     </div>
-   </footer>
+<footer>
+      <div id="footer">
+        <div class="contact">
+          <a href="index.html"><img src="static/images/generated-image.png" alt="" width="90px" height="60px" /></a>
+          <br> <br>
+          <br> 
+          <h3>Contact</h3>
+          <address>
+            <p><b>Address:</b> Sundar Haraincha -4 Morang, Dulari </p>
+            <p><b>Phone:</b> +977 9804762563</p>
+            <p><b>Hours</b> 10:00 - 18:00.  Sun - Fri</p>
+          </address>
+          <h3>Follow Us</h3>
+          <br> 
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="about">
+          <h3>About</h3>
+          <br> 
+          <a href="aboutus.html">About Us</a>
+          <a href="blog.html">Our's Blog</a>
+          <a href="research.html">Research</a>
+          <a href="product.html">Our Products</a>
+        </div>
+        <div class="myaccount ">
+          <h3>My account</h3>
+          <br> 
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Account</a>
+          <a href="#">Help</a>
+        </div>
+        <div class="install">
+          <h3>Install App From Here</h3>
+          <div class="download">
+            <a href="#"><img src="static/images/pay/app.jpg" alt=""></a>
+            <a href="#"><img src="static/images/pay/play.jpg" alt=""></a>
+          </div><br>
+          <br>
+          <h3>Payment</h3>
+          <br>
+          <img src="static/images/pay/pay.png" alt="">
+        </div>
+        
+      </div>
+    </footer>
+</body>
+<script src="static/js/search.js"></script>
 
-   <script>
-    function toggleContent(blogId) {
-  var content = document.getElementById("blog" + blogId + "-content");
-  if (content.style.display === "none" || content.style.display === "") {
-    content.style.display = "block"; // Show content
-  } else {
-    content.style.display = "none"; // Hide content
-  }
-}
-
-   </script>
- </body>
+<script src="static/js/newsletter.js"></script>
+    
+  </body>
 </html>
